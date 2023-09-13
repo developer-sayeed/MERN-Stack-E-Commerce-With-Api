@@ -1,0 +1,49 @@
+/* styles.css */
+
+header {
+  background-color: #336699;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+header h1 {
+  color: #fff;
+  margin: 0;
+}
+
+.tracking-form {
+  text-align: center;
+}
+
+.tracking-input {
+  width: 50%;
+  padding: 10px;
+  margin: 10px;
+}
+
+.tracking-button {
+  background-color: #336699;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.tracking-results {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* styles.css */
+/* ... previous styles ... */
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 90%;
+  }
+
+  .tracking-input {
+    width: 100%;
+  }
+}

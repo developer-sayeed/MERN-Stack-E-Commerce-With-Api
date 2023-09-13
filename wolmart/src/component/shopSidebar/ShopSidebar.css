@@ -1,0 +1,16 @@
+.widget-body .tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px;
+}
+.widget-body .tags a {
+  padding: 10px;
+  border: 1px solid #000;
+  color: #000;
+  margin: 3px;
+  transition: 0.5s;
+}
+.widget-body .tags a:hover {
+  background-color: #000;
+  color: #fff;
+}
